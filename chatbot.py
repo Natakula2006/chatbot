@@ -1,6 +1,6 @@
 import stremlit as st
 import google.generativeai as genai
-API_KEY =""
+API_KEY ="AIzaSyBzK-krO3a_dbYqnFvod439GQPR_YoL3WM"
 genai.configure(api_key=API_KEY)
 model =genai.GenerativeModel('gemini-1.5-falsh')
 if "chat" not in st.session_state:
